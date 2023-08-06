@@ -1,0 +1,212 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #EFF5FF;
+}
+
+.my-name{
+    color: #262630;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.about-me-container{
+    width: 274px;
+}
+
+.logo{
+    margin-bottom: 60px;
+}
+
+.my-photo{
+    border-radius: 24px;
+}
+
+.about-me-list{
+    padding-left: 14px;
+}
+
+.about-me-item{
+    color: #262630;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.game-title{
+    color: #262630;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+.main-container{
+   max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 44px;
+    box-sizing: border-box;
+    text-align: center;
+
+    @media screen and (min-width: 1170px) {
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.game-container{
+    width: 380px;
+
+    @media screen and (min-width: 768px) {
+            width: 440px;
+        }
+  
+}
+
+.instructions-container{
+    width: 274px;
+}
+
+.game-area{
+    background: #D5E3FF;
+    width: 380px;
+    width: 380px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+
+    @media screen and (min-width: 768px) {
+            width: 440px;
+            height: 440px;
+        }
+   
+}
+
+.game-canvas{
+    border: 1px solid  #9EADF2;
+    background: #FFF;
+    width: 340px;
+    height: 340px;
+
+    @media screen and (min-width: 768px){
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.game-score{
+    color: #262630;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    margin:16px 0;
+    text-align: center;
+}
+
+.game-start{
+    border-radius: 8px;
+    background: #FF6B0A;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    border: none;
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.game-reset{
+    border-radius: 8px;
+    border: 1px solid #FF6B0A;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    background: #EFF5FF;
+
+    color: #FF6B0A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.game-controls{
+    display: flex;
+    justify-content: center;
+}
+
+.game-navigation{
+    margin-top: 20px;
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    
+}
+
+.game-navigation-btn{
+    
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #FF6B0A;
+    padding: 12px 24px;
+    width: 120px;
+    box-sizing: border-box;
+    background: #EFF5FF;
+
+    color: #FF6B0A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    cursor: pointer;
+
+    @media screen and (min-width: 768px) {
+            width: 140px;
+        }
+}
+
+.game-navigation-btn:nth-child(1),
+.game-navigation-btn:nth-child(4){
+margin-left:100px ;
+margin-right: 100px;
+
+@media screen and (min-width: 768px) {
+        margin-left: 120px;
+            margin-right: 120px;
+    }
+}
+
+
+.instructions-title{
+    color: #262630;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 32px;
+    margin-top: 90px;
+}
+
+.instructions-list{
+    padding-left: 16px;
+}
+
+.instructions-item{
+    color: #262630;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
